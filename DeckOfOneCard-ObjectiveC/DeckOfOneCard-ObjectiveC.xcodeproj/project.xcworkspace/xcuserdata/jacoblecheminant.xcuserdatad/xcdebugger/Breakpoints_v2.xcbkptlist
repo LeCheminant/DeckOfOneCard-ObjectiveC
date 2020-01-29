@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "62E7FCB6-E6DB-4CDC-B2B9-B64EF95F5D79"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0749E04-1265-4753-B763-141D24E4496E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../DeckOfOneCard-ObjectiveC/Controllers/View Controllers/DVMCardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchCards()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0749E04-1265-4753-B763-141D24E4496E - 431d30230f2873e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.DVMCard&gt;&gt;) -&gt; () in DeckOfOneCard_ObjectiveC.DVMCardViewController.fetchCards() -&gt; ()"
+                  moduleName = "DeckOfOneCard-ObjectiveC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacoblecheminant/Library/Mobile%20Documents/com~apple~CloudDocs/Personal/School/DevMountain/iOS%2031/Anchor%20Point%204/Anchor%20Point%204%20Projects/Solo%20Projects/Deck%20of%20Cards%20-%20C/DeckOfOneCard-ObjectiveC/DeckOfOneCard-ObjectiveC/Controllers/View%20Controllers/DVMCardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  uuid = "B0749E04-1265-4753-B763-141D24E4496E - deed2672a698f84c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.DVMCard&gt;&gt;) -&gt; () in DeckOfOneCard_ObjectiveC.DVMCardViewController.fetchCards() -&gt; ()"
+                  moduleName = "DeckOfOneCard-ObjectiveC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jacoblecheminant/Library/Mobile%20Documents/com~apple~CloudDocs/Personal/School/DevMountain/iOS%2031/Anchor%20Point%204/Anchor%20Point%204%20Projects/Solo%20Projects/Deck%20of%20Cards%20-%20C/DeckOfOneCard-ObjectiveC/DeckOfOneCard-ObjectiveC/Controllers/View%20Controllers/DVMCardViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7ACB4BDE-31B1-459D-91CA-2FB5E853A20A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../DeckOfOneCard-ObjectiveC/Controllers/View Controllers/DVMCardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchCards()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

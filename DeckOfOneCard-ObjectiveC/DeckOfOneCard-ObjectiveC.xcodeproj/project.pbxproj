@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97093AF23E10FF900B9A1B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A97093AE23E10FF900B9A1B7 /* AppDelegate.m */; };
+		A97093B223E10FF900B9A1B7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A97093B123E10FF900B9A1B7 /* SceneDelegate.m */; };
+		A97093B823E10FF900B9A1B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97093B623E10FF900B9A1B7 /* Main.storyboard */; };
+		A97093BA23E10FFC00B9A1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97093B923E10FFC00B9A1B7 /* Assets.xcassets */; };
+		A97093BD23E10FFC00B9A1B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97093BB23E10FFC00B9A1B7 /* LaunchScreen.storyboard */; };
+		A97093C023E10FFC00B9A1B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A97093BF23E10FFC00B9A1B7 /* main.m */; };
+		A97093CC23E1107B00B9A1B7 /* DVMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A97093CB23E1107B00B9A1B7 /* DVMCard.m */; };
+		A97093D123E110EA00B9A1B7 /* DVMCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97093D023E110EA00B9A1B7 /* DVMCardController.m */; };
+		A97093D423E1114300B9A1B7 /* DVMCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97093D323E1114300B9A1B7 /* DVMCardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A97093AA23E10FF900B9A1B7 /* DeckOfOneCard-ObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeckOfOneCard-ObjectiveC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97093AD23E10FF900B9A1B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A97093AE23E10FF900B9A1B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A97093B023E10FF900B9A1B7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A97093B123E10FF900B9A1B7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A97093B723E10FF900B9A1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A97093B923E10FFC00B9A1B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97093BC23E10FFC00B9A1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A97093BE23E10FFC00B9A1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97093BF23E10FFC00B9A1B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A97093CA23E1107B00B9A1B7 /* DVMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCard.h; sourceTree = "<group>"; };
+		A97093CB23E1107B00B9A1B7 /* DVMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCard.m; sourceTree = "<group>"; };
+		A97093CF23E110EA00B9A1B7 /* DVMCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCardController.h; sourceTree = "<group>"; };
+		A97093D023E110EA00B9A1B7 /* DVMCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCardController.m; sourceTree = "<group>"; };
+		A97093D223E1114200B9A1B7 /* DeckOfOneCard-ObjectiveC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeckOfOneCard-ObjectiveC-Bridging-Header.h"; sourceTree = "<group>"; };
+		A97093D323E1114300B9A1B7 /* DVMCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVMCardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A97093A723E10FF900B9A1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97093A123E10FF900B9A1B7 = {
+			isa = PBXGroup;
+			children = (
+				A97093AC23E10FF900B9A1B7 /* DeckOfOneCard-ObjectiveC */,
+				A97093AB23E10FF900B9A1B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A97093AB23E10FF900B9A1B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97093AA23E10FF900B9A1B7 /* DeckOfOneCard-ObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97093AC23E10FF900B9A1B7 /* DeckOfOneCard-ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				A97093C923E1103500B9A1B7 /* Models */,
+				A97093C823E1102F00B9A1B7 /* Controllers */,
+				A97093C723E1102800B9A1B7 /* Views */,
+				A97093C623E1100C00B9A1B7 /* Resources */,
+				A97093B623E10FF900B9A1B7 /* Main.storyboard */,
+				A97093BB23E10FFC00B9A1B7 /* LaunchScreen.storyboard */,
+			);
+			path = "DeckOfOneCard-ObjectiveC";
+			sourceTree = "<group>";
+		};
+		A97093C623E1100C00B9A1B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A97093AD23E10FF900B9A1B7 /* AppDelegate.h */,
+				A97093AE23E10FF900B9A1B7 /* AppDelegate.m */,
+				A97093B023E10FF900B9A1B7 /* SceneDelegate.h */,
+				A97093B123E10FF900B9A1B7 /* SceneDelegate.m */,
+				A97093B923E10FFC00B9A1B7 /* Assets.xcassets */,
+				A97093BE23E10FFC00B9A1B7 /* Info.plist */,
+				A97093BF23E10FFC00B9A1B7 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A97093C723E1102800B9A1B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A97093C823E1102F00B9A1B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A97093CE23E110CE00B9A1B7 /* Model Controllers */,
+				A97093CD23E110C500B9A1B7 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A97093C923E1103500B9A1B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A97093CA23E1107B00B9A1B7 /* DVMCard.h */,
+				A97093CB23E1107B00B9A1B7 /* DVMCard.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A97093CD23E110C500B9A1B7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A97093D323E1114300B9A1B7 /* DVMCardViewController.swift */,
+				A97093D223E1114200B9A1B7 /* DeckOfOneCard-ObjectiveC-Bridging-Header.h */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A97093CE23E110CE00B9A1B7 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A97093CF23E110EA00B9A1B7 /* DVMCardController.h */,
+				A97093D023E110EA00B9A1B7 /* DVMCardController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A97093A923E10FF900B9A1B7 /* DeckOfOneCard-ObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97093C323E10FFC00B9A1B7 /* Build configuration list for PBXNativeTarget "DeckOfOneCard-ObjectiveC" */;
+			buildPhases = (
+				A97093A623E10FF900B9A1B7 /* Sources */,
+				A97093A723E10FF900B9A1B7 /* Frameworks */,
+				A97093A823E10FF900B9A1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeckOfOneCard-ObjectiveC";
+			productName = "DeckOfOneCard-ObjectiveC";
+			productReference = A97093AA23E10FF900B9A1B7 /* DeckOfOneCard-ObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97093A223E10FF900B9A1B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jacob LeCheminant";
+				TargetAttributes = {
+					A97093A923E10FF900B9A1B7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = A97093A523E10FF900B9A1B7 /* Build configuration list for PBXProject "DeckOfOneCard-ObjectiveC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97093A123E10FF900B9A1B7;
+			productRefGroup = A97093AB23E10FF900B9A1B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A97093A923E10FF900B9A1B7 /* DeckOfOneCard-ObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A97093A823E10FF900B9A1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97093BD23E10FFC00B9A1B7 /* LaunchScreen.storyboard in Resources */,
+				A97093BA23E10FFC00B9A1B7 /* Assets.xcassets in Resources */,
+				A97093B823E10FF900B9A1B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A97093A623E10FF900B9A1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97093AF23E10FF900B9A1B7 /* AppDelegate.m in Sources */,
+				A97093D123E110EA00B9A1B7 /* DVMCardController.m in Sources */,
+				A97093D423E1114300B9A1B7 /* DVMCardViewController.swift in Sources */,
+				A97093CC23E1107B00B9A1B7 /* DVMCard.m in Sources */,
+				A97093C023E10FFC00B9A1B7 /* main.m in Sources */,
+				A97093B223E10FF900B9A1B7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A97093B623E10FF900B9A1B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97093B723E10FF900B9A1B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A97093BB23E10FFC00B9A1B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97093BC23E10FFC00B9A1B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A97093C123E10FFC00B9A1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A97093C223E10FFC00B9A1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A97093C423E10FFC00B9A1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2R26CX5Y9;
+				INFOPLIST_FILE = "DeckOfOneCard-ObjectiveC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "navajoelite.DeckOfOneCard-ObjectiveC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCard-ObjectiveC/Controllers/View Controllers/DeckOfOneCard-ObjectiveC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A97093C523E10FFC00B9A1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2R26CX5Y9;
+				INFOPLIST_FILE = "DeckOfOneCard-ObjectiveC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "navajoelite.DeckOfOneCard-ObjectiveC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCard-ObjectiveC/Controllers/View Controllers/DeckOfOneCard-ObjectiveC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A97093A523E10FF900B9A1B7 /* Build configuration list for PBXProject "DeckOfOneCard-ObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97093C123E10FFC00B9A1B7 /* Debug */,
+				A97093C223E10FFC00B9A1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97093C323E10FFC00B9A1B7 /* Build configuration list for PBXNativeTarget "DeckOfOneCard-ObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97093C423E10FFC00B9A1B7 /* Debug */,
+				A97093C523E10FFC00B9A1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A97093A223E10FF900B9A1B7 /* Project object */;
+}
